@@ -10,7 +10,7 @@ export default defineNuxtConfig({
     'pinia-plugin-persistedstate/nuxt',
     '@vueuse/nuxt'
   ],
-  css: ['@unocss/reset/normalize.css'],
+  css: ['@unocss/reset/normalize.css', '~/assets/styles/index.scss'],
   app: {
     head: {
       title: 'Venus Nuxt4 Sample',

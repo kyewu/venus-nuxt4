@@ -3,6 +3,8 @@
     Home Page
     <Icon :name="`carbon:${dark ? 'moon' : 'sun'}`" size="1rem" />
     <button @click="count.increment">{{ count.getCount }}</button>
+    <div class="i-ph-anchor-simple-thin" />
+    <div class="i-mdi-alarm text-orange-400" />
     <section>
       <div v-for="post in data" :key="post.id" class="mb-4 p-4 border rounded">
         <nuxt-link :to="`/posts/${post.id}`">
